@@ -4,7 +4,7 @@ import { Component, OnInit, Input, ViewEncapsulation } from '@angular/core';
   selector: 'app-server-element',
   templateUrl: './server-element.component.html',
   styleUrls: ['./server-element.component.css'],
-  
+
   // 'encapsulation' determines whether CSS styles are applied only to this
   // component, or applied globally.
   // Emulated is the default value, so it's not actually required to declare

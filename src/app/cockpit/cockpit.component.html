@@ -3,22 +3,16 @@
     <p>Add new Servers or blueprints!</p>
     <label>Server Name</label>
     <!-- #serverNameInput is a 'local reference', can be used only in the template (ie. not in TS code)-->
-    <input type="text"
-           class="form-control"
-           #serverNameInput>
+    <input type="text" class="form-control" #serverNameInput>
     <label>Server Content</label>
-    <input type="text"
-           class="form-control"
-           #serverContentInput>
+    <input type="text" class="form-control" #serverContentInput>
     <br>
     <button
-      class="btn btn-primary"
-      (click)="onAddServer(serverNameInput, serverContentInput)">
+      class="btn btn-primary" (click)="onAddServer()">
         Add Server
     </button><!-- Use local reference -->
     <button
-      class="btn btn-primary"
-      (click)="onAddBlueprint(serverNameInput, serverContentInput)">
+      class="btn btn-primary" (click)="onAddBlueprint()">
         Add Server Blueprint
     </button>
   </div>
